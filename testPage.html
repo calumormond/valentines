@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+
+<head>
+    <title>My first website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--h1 means header 1, hr is a horizontal line, br is a space-->
+    <h1> I like pizza!</h1>
+    <hr>
+    <br>
+    <p id="a123">This is some sample text</p>
+
+
+    <a href="https://www.google.com" target=_blank title="This takes you to google">
+        <button style="background-color: darkmagenta; color: azure; border-radius: 550px;"> 
+            Go to google</button>
+    </a>
+    <br>
+    <br>
+        <button onclick="doSomething()" style="background-color: darkmagenta; color: azure; border-radius: 250px;"> 
+            Go to google</button>
+        <p id="test">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Goodbye";
+            }
+        </script>
+    <br>
+    <br>
+    <a href="page2.html" target=_blank title="This takes you to page 2">
+        Go to page 2
+    </a>
+    <br>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Winnie-the-Pooh" target=_blank>
+    <img src="winnie the pooh png.png" height="300" alt="This is an image of pooh" target=_blank title="Winnie the Pooh!!!!!!!!!!!!"> 
+    </a>
+    <br>
+    <audio controls autoplay loop muted src="Exhale - Jeremy Blake.mp3">
+    </audio>
+   
+    <a href="page2.html" target="_blank">
+    <button id="box1">Click me</button>
+    </a>
+    
+    
+    <img id="gif" src="winnie the pooh gif.gif" height="500">
+
+</body>
+
+
+
+</html>

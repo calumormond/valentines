@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient( pink,rgb(252, 86, 252));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+}
+
+h1{
+    color: red;
+    font-family: "pacifico", "consalas";
+    font-size: 5pc;
+    display: block;
+}
+
+p{
+    
+    font-family: "pacifico", "consalas";
+    font-size: 3pc
+}
+#a123{
+    color: white;
+    font-family: "consalas";
+}
+
+
+button:hover{
+    color:fuchsia;
+}
+button:active{
+    background-color: white;
+}
+button{
+    width: 350px;
+    height: 70px;
+    font-size: 30px;
+    font-family:  "consalas";
+    border-radius: 25px;
+    border: 4px solid;
+
+
+}
